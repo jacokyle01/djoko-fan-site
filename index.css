@@ -2,15 +2,17 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", arial;
+  margin: 0px;
 }
 
 header,
 footer {
   background-color: #1f2937;
+  color: white;
 }
 
 header {
-    color: white;
+  padding: 10px 60px 40px 60px;
 }
 
 .header-top {
@@ -24,10 +26,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.section-1 {
+  padding: 10px 60px 60px 60px;
 }
 
 .section-2 {
   background-color: #e5e7eb;
+  padding: 40px 80px 40px 80px;
 }
 
 .logo {
@@ -42,7 +50,13 @@ img {
 
 .links {
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+
 
 .quote h2 {
   font-size: 25px;
@@ -50,11 +64,29 @@ img {
   font-style: italic;
 }
 
+button {
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 3px
+}
+
+.section-3 button {
+  border: 1px solid white;
+}
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+.box { 
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 button, .banner {
@@ -65,6 +97,7 @@ h1 {
   font-size: 40px;
   font-weight: bolder;
   color: #f9faf8;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -78,14 +111,21 @@ h3 {
   font-size: 16px;
   color: #e5e7eb;
   font-weight: 100;
+  margin:
 }
 
 h4 {
   text-align: end;
 }
 
+h5 {
+  margin: 0px;
+
+}
+
 h6 {
     font-weight: 100;
+    margin: 0px;
 }
 
 a {
@@ -99,15 +139,22 @@ a {
   justify-content: space-around;
   flex-direction: row;
   color: white;
+  margin: 40px 80px 30px 80px;
+  padding: 20px 10px;
+  border-radius: 5px;
 }
 
-
+.banner-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   font-size: 10px;
+  padding: 15px 
 }
 
