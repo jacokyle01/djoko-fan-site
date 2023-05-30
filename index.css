@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
 }
 
+
 .header-bottom {
   display: flex;
   align-items: center;
@@ -32,6 +33,11 @@ header {
 .logo {
   color: #f9faf8;
   font-size: 15px;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }
 
 .links {
